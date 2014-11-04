@@ -44,6 +44,7 @@ public class Factorial {
 
     public Factorial() {
 	initialize();
+
     }
 
     // Funció opcional per calcular el factorial mitjançant un for
