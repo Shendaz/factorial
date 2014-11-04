@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class FactorialConsola {
 	public static double factorial(double numero) {
 		if (numero == 0) {
@@ -9,7 +11,10 @@ public class FactorialConsola {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(factorial(6));
-		System.out.println("hola");
+	    	int numero;
+	    	Scanner scan = new Scanner(System.in);
+	    	System.out.println("Introdueix el número: ");
+		numero = scan.nextInt();
+		System.out.println(factorial(numero));
 	}
 }
