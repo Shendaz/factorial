@@ -13,7 +13,7 @@ public class FactorialConsola {
 	public static void main(String[] args) {
 	    	int numero;
 	    	Scanner scan = new Scanner(System.in);
-	    	System.out.println("Introdueix el número: ");
+	    	System.out.println("Introdueix el número : ");
 		numero = scan.nextInt();
 		System.out.println(factorial(numero));
 	}
